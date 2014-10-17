@@ -1,0 +1,113 @@
+ul.task {
+		margin: 0;
+    padding: 0;
+    list-style-type: none;
+		float: left;
+		width: 8%;
+}
+
+ul.task li {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    background: #eee;
+    border: 1px solid #ddd;
+    color: #707070;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    height: 32px;
+}
+
+ul.execute {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+		float: left;
+		margin-left: 1%;
+		width: 91%;
+}
+
+ul.execute li {
+    padding: 0;
+    margin-bottom: 6px;
+    position: relative;
+    height: 32px;
+}
+
+ul.execute label {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    background: #eee;
+    border: 1px solid #ddd;
+    color: #707070;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 0;
+    position: absolute;
+    text-align: center;
+}
+
+ul.execute li em {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+ul.day {
+		clear: none;
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+ul.day li {
+    background: #fff url(/images/1x1_eee.gif) repeat-x left 10%;
+    border-right: 1px solid #ccc;
+    color: #999;
+    float: left;
+    font-size: 1.2em;
+    margin: 0 0 3px 0;
+    padding: 7px 0 2px;
+    text-align: center;
+    width: 4%;
+}
+
+ul.day li.first {
+    border-left: 1px solid #ccc;
+    width: 8%;
+}
+
+ul.interval {
+		clear: none;
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+/* The width depends on the number of interval. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
+ul.interval li {
+    background: #fff url(/images/1x1_eee.gif) repeat-x left 10%;
+    border-right: 1px solid #ccc;
+    color: #999;
+    float: left;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    width: 28%;
+}
+
+ul.interval li.first {
+    border-left: 1px solid #ccc;
+    width: 8%;
+}
+
+ul.interval li.last {
+    width: 8%;
+}
